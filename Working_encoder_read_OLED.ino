@@ -1,3 +1,7 @@
+// Based on:
+// Example in https://github.com/khoih-prog/megaAVR_TimerInterrupt
+// Example in https://github.com/0xPIT/encoder/tree/master
+
 /****************************************************************************************************************************
   ISR_Timers_Array_Simple.ino
   For Arduino megaAVR ATMEGA4809-based boards (UNO WiFi Rev2, NANO_EVERY, etc. )
