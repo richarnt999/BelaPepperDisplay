@@ -98,10 +98,10 @@ void TimerHandler1()
 
 	ISR_Timer1.run();
 
-  if (timeRun % divMillis == 0) encoder1->service(); // run every millisecond
+  if (++timeRun % divMillis == 0) encoder1->service(); // run every millisecond
 
 	// Toggle LED every LED_TOGGLE_INTERVAL_MS = 2000ms = 2s, to be DELETED
-	if (++timeRun == ((LED_TOGGLE_INTERVAL_MS) / TIMER1_INTERVAL_MS) )
+	if (timeRun == ((LED_TOGGLE_INTERVAL_MS) / TIMER1_INTERVAL_MS) )
 	{
 		timeRun = 0;
 
