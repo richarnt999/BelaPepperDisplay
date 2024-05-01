@@ -1,4 +1,7 @@
-My first project.
+BelaPepperDisplay
+=================
+
+My first github project...
 
 A 1U 18hp eurorack module for interfacing over I2C with Bela Pepper. It contains a 0.91" SSD1306 OLED, two rotary encoders, and is run by an arduino nano every. I plan to use it to control parameters on the Bela via a menu structure.
 
